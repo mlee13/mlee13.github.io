@@ -40,7 +40,7 @@ $base-color-hover: darken($base-color, 10%);
 // Define background colors
 $background: #fff;
 $background-alt: #f2f2f5;
-$background-alt-y:#f1ffbd;
+$background-alt-y:#99af49;
 
 // Define border colors
 $border: #dcd9d9;
@@ -724,14 +724,16 @@ footer {
 }
 
 #softSkills {
-    display: inline-block;
-    margin: 7px;
-    padding: 5px 10px;
-    color: $heading;
-    background: darken($background-alt-y, 5%);
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em;
+    li {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt-y, 50%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
 }
 
 /*
