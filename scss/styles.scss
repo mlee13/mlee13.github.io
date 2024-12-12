@@ -106,7 +106,7 @@ body {
 
             h3 {
                 font-size: 1.5em;
-                font-weight: 300;
+                font-weight: 400;
                 color: $heading;
                 display: inline-block;
                 margin: 0;
@@ -169,7 +169,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: darken($base-color, 25%);
         padding: 10px;
 
         &:hover {
@@ -695,6 +695,17 @@ footer {
     -------------------------------
 */
 
+#softSkills {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: $heading;
+    background: darken($background-alt-y, 50%);
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
+
 #skills {
     padding: 50px 15px;
     text-align: center;
@@ -717,19 +728,6 @@ footer {
         padding: 5px 10px;
         color: $heading;
         background: darken($background-alt, 5%);
-        list-style: none;
-        cursor: default;
-        font-size: 1.2em;
-    }
-}
-
-#softSkills {
-    li {
-        display: inline-block;
-        margin: 7px;
-        padding: 5px 10px;
-        color: $heading;
-        background: darken($background-alt-y, 50%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
