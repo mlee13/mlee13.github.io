@@ -40,7 +40,7 @@ $base-color-hover: darken($base-color, 10%);
 // Define background colors
 $background: #fff;
 $background-alt: #f2f2f5;
-$background-alt-y:#99af49;
+$background-alt-y:#dfd8bf;
 
 // Define border colors
 $border: #dcd9d9;
@@ -351,7 +351,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/mins.jpg);
+    background: url(../images/minseo-back.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -382,6 +382,7 @@ footer {
         color: lighten($base-color, 25%);
         font-weight: 500;
         font-size: 2.25em;
+        margin-top: 12px;
         margin-bottom: 15px;
     }
 }
@@ -391,7 +392,7 @@ footer {
     height: 100%;
     width: 100%;
     top: 0;
-    right: 0;
+    right: 0;   
     bottom: 0;
     left: 0;
     background: rgba($base-color-hover, 0.8);
@@ -529,10 +530,14 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p {
+    p, ul {
         color: $text;
         font-size: 0.9em;
         margin: 0;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
     }
 }
 
@@ -695,17 +700,6 @@ footer {
     -------------------------------
 */
 
-#softSkills {
-    display: inline-block;
-    margin: 7px;
-    padding: 5px 10px;
-    color: $heading;
-    background: darken($background-alt-y, 50%);
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em;
-}
-
 #skills {
     padding: 50px 15px;
     text-align: center;
@@ -720,6 +714,17 @@ footer {
         margin: 0 auto;
         padding: 0;
         max-width: 800px;
+    }
+
+    #softSkills {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt-y, 50%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
     }
 
     li {
