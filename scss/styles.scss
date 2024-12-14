@@ -40,7 +40,9 @@ $base-color-hover: darken($base-color, 10%);
 // Define background colors
 $background: #fff;
 $background-alt: #f2f2f5;
-$background-alt-y:#dfd8bf;
+$background-alt-y:#e9e9e1;
+$background-alt-b:#e3e8eb;
+
 
 // Define border colors
 $border: #dcd9d9;
@@ -351,7 +353,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/minseo-back.jpg);
+    background: url(../images/minseo-back-resized.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -722,6 +724,17 @@ footer {
         padding: 5px 10px;
         color: $heading;
         background: darken($background-alt-y, 50%);
+        list-style: none;
+        cursor: default;
+        font-size: 1.2em;
+    }
+
+    #techSkills {
+        display: inline-block;
+        margin: 7px;
+        padding: 5px 10px;
+        color: $heading;
+        background: darken($background-alt-b, 50%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
