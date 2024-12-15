@@ -723,7 +723,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: $background-alt-y;
+        background: lighten($background-alt-y, 30%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -734,7 +734,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: lighten($background-alt-b, 10%);
+        background: lighten($background-alt-b, 30%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
