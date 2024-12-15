@@ -659,10 +659,12 @@ footer {
 }
 
 .project-image {
+    display: inline-block;
     float: left;
 }
 
 .project-info {
+    display: inline-block;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -723,7 +725,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: $background-alt-y;
+        background: darken($background-alt-y, 5%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -734,7 +736,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: $background-alt-b;
+        background: darken($background-alt-b, 5%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
