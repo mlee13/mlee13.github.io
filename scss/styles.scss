@@ -676,13 +676,6 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    h4 {
-        font-size: 1.2em;
-        font-weight: 300;
-        color: $heading;
-        margin: 0 0 15px 0;
-    }
-
     p {
         color: $text;
         margin: 0 0 15px 0;
@@ -730,7 +723,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt-y, 10%);
+        background: $background-alt-y;
         list-style: none;
         cursor: default;
         font-size: 1.2em;
@@ -741,7 +734,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt-b, 10%);
+        background: lighten($background-alt-b, 10%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
