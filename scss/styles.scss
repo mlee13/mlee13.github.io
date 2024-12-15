@@ -659,15 +659,15 @@ footer {
 }
 
 .project-image {
-    display: inline-block;
-    float: left;
+    position: absolute;
+    float: inline-start;
+    display: flex;
+    height: 100%;
 }
 
 .project-info {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    float: inline-start;
+    height: 100%;
     margin-left: 300px;
     padding: 15px;
 
